@@ -11,7 +11,7 @@ public class TicTacToe
   public static void main(String[] args)
   {
 
-    final int SIZE = 3;
+    final int SIZE = 4;
     char[][] board = new char[SIZE][SIZE]; // game board
 
     resetBoard(board); // initialize the board (with ' ' for all cells)
